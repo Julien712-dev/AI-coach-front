@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Coach.ai",
+    "slug": "coach-ai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/image/icon.png",
+    "splash": {
+      "image": "./assets/image/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1E90FF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "entryPoint": "./src/App.js",
+    "assetBundlePatterns": [
+      "**/*",
+      "assets/images/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.tmc.coachai",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.tmc.coachai",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/image/favicon.png"
+    }
+  }
+}
